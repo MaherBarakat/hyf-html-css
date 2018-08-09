@@ -1,0 +1,134 @@
+body {
+    Background: #A295A3;
+  }
+  #header {
+    border: 2px solid #e6ffe6;
+  }
+  .first-cup {
+    margin-left: 2em;
+    margin-top: 2em;
+    border: 5px solid lightgray;
+    width: 100px;
+    float: left;
+  }
+  .second-cup {
+    margin-right: 2em;
+    margin-top: 2em;
+    border: 5px solid lightgray;
+    width: 98px;
+    height: 190px;
+    float: right;
+    
+  }
+  h1 { 
+  font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 100px;
+  }
+  .fifa {
+    color: #3585ca;
+  }
+  .world {
+    color: #8f39c5;
+  }
+  .cup {
+    color: #52ccad;
+  }
+  .item {
+    padding-top: 20px;
+    position:relative;
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 0px 40px 5px 40px
+  }
+  .first-item:hover {
+    background-color: #8f39c5;
+    width:fit-content;
+  }
+  .second-item:hover {
+   background-color:#3585ca; 
+   width:fit-content;
+  }
+  #first-bag {
+    height: 375px;
+    overflow-y: scroll;
+    margin: 0px 40px 15px 40px;
+  }
+  .balls {
+    width: 25%;
+    border: 5px double gray;
+    border-radius: 250px;
+    float: left;
+    margin: 10px 10px 10px 10px
+    }
+  #introduction::first-letter {
+    font-size: 30px;
+    color: purple;
+  }
+  #introduction {
+    font-family: italic;
+    font-size: 16px;
+    line-height: 2em;
+    text-align: justify;
+  }
+  .lightness:hover {
+    background: #52ccad;
+  }
+  h2 {
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: underline;
+    width:fit-content;
+    padding: 10px;
+    margin: 0px 40px 20px 40px;
+  }
+  #countries:hover {
+   background-color: #3585ca;
+    width: 8em;
+  }
+  #flags-2 { 
+  float: right;
+   width:28%;
+  margin: 0% 2%px;
+  }
+  #flags {
+   float: right;
+   width:28%;
+   margin:20px;
+   }
+  .both {
+    clear:both;
+  }
+  .Uruguay, .Italy, .France, .Brazil, .England, .Germany, .Argentina, .Spain {
+    border-style: dotted;
+    border-color: yellow;
+    border-radius: 50%;
+    width: 55%;
+    height: auto;
+  }
+  #competitions {
+    float:right;
+    margin: 0%;
+    width:40%;
+    border-collapse: collapse;
+  }
+   #competitions td, #competitions th {
+      border: 1px solid #3585ca;
+      padding: 8px;
+     text-align:center;
+  }
+  #competitions tr:nth-child(even) {
+    background-color: #8f39c5;
+  }
+  #competitions tr:hover {
+    background-color: #52ccad;
+  }
+  .link-table {
+    width: fit-content;
+    font-size: 25px;
+    text-align:center;
+    margin: 0px 0px 0px 0px ;
+    }
+  .link-table:hover {
+    background: #52ccad;
+  }
