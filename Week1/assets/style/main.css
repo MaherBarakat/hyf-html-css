@@ -1,0 +1,47 @@
+body{
+    background: #ffeee6;
+  }
+  h1{
+    font-family: "Times New Roman", Times, serif;
+    color: #F08080;
+    text-align: center;
+  }
+  .picture{
+    border-radius: 250px;
+    width: 350px;
+    margin: 10px 10px 10px 10px;
+  }
+  .about::first-letter {
+     font-size: 30px;
+    color: purple;
+  }
+  .education {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 9%; 
+  }
+  .education > a {
+    width: 30%;
+  }
+  h4{
+    font-size:18px
+  }
+  #experiences {
+     border-collapse: collapse;
+  }
+  #experiences td, #experiences th {
+      border: 1px solid #3585ca;
+      padding: 8px;
+     text-align:center;
+  }
+  #experiences tr:nth-child(even) {
+    background-color: #99c2ff;
+  }
+    #experiences tr:hover {
+    background-color: #cc99ff;
+  }
+  .strategies, .resources {
+    padding: 20px;
+    margin: 0px 40px 20px 40px;
+  }
+  
