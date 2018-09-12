@@ -1,0 +1,418 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+/*----.logo-image {
+  display: block;
+}
+----*/
+.logo-image div {
+  margin: 0 0 0 50%;
+}
+
+.logo-image img {
+  margin: 0 0 0 -25px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  /*----margin: auto;----*/
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 1200px;
+}
+
+#nav {
+  display: flex;
+  flex-flow: wrap;
+  background-color: #2f019b;
+  padding: 0 25px;
+}
+
+.navigator-items {
+  display: flex;
+  flex-flow: wrap;
+  flex: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.navigator-items li {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.navigator-items li:hover {
+  background:#BFBF3F;
+}
+
+.navigator-items li:first-of-type {
+  margin-right: auto;
+  /*----font-weight: normal;----*/
+}
+
+.navigator-items li a {
+  display: block;
+  color: rgb(212, 130, 37);
+  padding: 10px 40px;
+}
+
+.navigator-items li a:hover {
+  text-decoration: underline;
+}
+
+/*----#nav button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  width: 48px;
+  height: 48px;
+  background: none;
+  font-size: 24px;
+  color: #fff;
+  outline: none;
+}-----*/
+
+#cover-img {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("https://www.rijksoverheid.nl/binaries/small/content/gallery/rijksoverheid/banner-afbeeldingen/home/halvering-collegegeld-eerstejaars-studenten.jpg");
+  padding: 25px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.paragraph {
+  margin: 0 0 0 25px;
+  padding: 30px;
+  box-sizing: border-box;
+  list-style-type: none;
+  background-color: white;
+  width: 33.33%;
+}
+
+.paragraph li {
+  margin: 0 0 15px 15px;
+}
+
+.paragraph li:last-of-type {
+  margin: 0 0 0 15px;
+}
+
+.paragraph a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #0c3a1b;
+}
+
+.paragraph a:hover {
+  background: #BFBF3F;
+  text-decoration: underline;
+}
+
+.search-box {
+  width: 30%;
+  margin: 0 25px 0 0;
+}
+
+.search-box form {
+  display: flex;
+  align-items: center;
+  flex: 33.33%;
+}
+
+.input-box {
+  box-sizing: border-box;
+  border: none;
+  flex: calc(100% - 48px);
+  height: 48px;
+  padding: 10px;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 20px;
+}
+
+.search-symbol {
+  border: none;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  background-color: #000;
+  color: white;
+}
+
+#main {
+  padding: 25px;
+  background-color: #f3f3f3;
+}
+
+.fixed-art {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 15px;
+  color: #01689b;
+}
+
+.art-title {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-art:hover .art-title {
+  background: gray;
+  text-decoration: underline;
+}
+
+.summary {
+  font-size: 10px;
+  margin: 10px 0;
+  padding: 0;
+  color: black;
+  line-height: 20px;
+}
+
+#down {
+  padding: 25px;
+}
+
+.second {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.second-a {
+  color: #000;
+}
+
+.second-image {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.second-title {
+  margin: 0;
+  padding: 12px 0;
+  color: #01689b;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.second-a:hover .second-title {
+  text-decoration: underline;
+}
+
+.second-summary {
+ font-size:10px;
+}
+
+/*----hr {
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+  width: 100%;
+}-----*/
+
+#nieuws {
+  font-size: 15px;
+  padding: 20px;
+}
+
+#nieuws h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.Nieuws-art {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 15px;
+  color: #000;
+}
+
+.Nieuws-title {
+  color: #01689b;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.Nieuws-art:hover .Nieuws-title {
+  background:gray;
+  text-decoration: underline;
+}
+
+.Nieuws-art h4 {
+  font-weight: bold;
+}
+
+.nieuws-summary {
+  font-size:10px;
+  line-height: 20px;
+}
+
+/*-----#down-boxs .container {
+  justify-content: flex-start;
+}-----*/
+
+.second-down {
+  box-sizing: border-box;
+  width: 33.33%;
+  margin: 0 0 20px;
+  padding: 15px;
+  color: #000;
+}
+
+.second-down > div {
+  box-sizing: border-box;
+  border: 3px solid #CBD2E3;
+  /*---width:50%;----*/
+  height: 100%;
+  padding: 15px;
+  text-align: center; 
+}
+
+.second-down > div > h2, .second-down > div > p {
+  margin: 0;
+}
+
+#footer {
+  background-color: #01689b;
+}
+
+#footer h2 {
+  box-sizing: border-box;
+  flex: 60%;
+  padding: 40px 0 0 20px;
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+}
+
+.help {
+  flex: 20%;
+  list-style-type: none;
+  margin: 0;
+  padding: 60px 0px 60px 0;
+  color: #fff;
+}
+
+.help-choice {
+  margin: 0;
+  padding: 5px;
+}
+
+.help-choice:nth-child(1) {
+  font-size: 22px;
+  font-family: Verdana;
+}
+
+.help-choice a:hover {
+  text-decoration: underline;
+}
+
+/*-----.help-url {
+  color: #fff;
+  font-size: 14px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.footer1 {
+  background-color: #fff;
+}----*/
+
+.lan {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 30px 0;
+  width: 100%;
+  color: #000;
+}
+
+.lan .help-url {
+  display: block;
+  color: #01689b;
+  border: 1px solid #b0c8d4;
+  margin: 6px;
+  padding: 9px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.lan .help-choice:nth-child(1) {
+  margin: 10px;
+  padding: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.lan .help-choice a:hover {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 471px) {
+  .second, .Nieuws-art, .second-down {width: 100%} }
+
+@media only screen and (max-width: 776px) {
+    #nav button { display: inline-flex;}
+  
+    .navigator-items {
+      flex: 50%;
+    }
+  
+    .nav-items li:not(:first-of-type) {
+      display: none;
+    }
+  
+    .help {
+      box-sizing: border-box;
+      flex: 50%;
+      padding: 20px;
+    }
+  
+    #footer h2 {
+      flex: 100%;
+    }
+  
+    .search-box {
+      width: 100%;
+      order: 0;
+      margin: 0 0 25px;
+    }
+  
+    .fixed-art {
+      width: 100%;
+    }
+  
+    .paragraph {
+      width: 100%;
+      order: 1;
+      margin: 0;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 942px;
+    width: 942px;
+  }
+}
